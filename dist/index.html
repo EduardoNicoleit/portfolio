@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>EduardoNicoleit - Personal Website</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <title>Eduardo Nicoleit || Front End Web Developer [React, HTML, CSS, JavaScript]</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- Use container to make the content in the center of the page -->
+    <div class="container">
+      <header id="header">
+        <div id="personal-info">
+          <div class="avatar-container">
+            <img src="https://cdn.discordapp.com/attachments/952037061559463996/1105117429304135741/33761603.jpg" alt="Tan Gravam" width="100" height="100" />
+          </div>
+          <div class="header-info-container">
+            <h1>Eduardo Nicoleit</h1>
+            <p>Front-End Web Developer
+              <br>[React, HTML, CSS, JavaScript]
+            </p>
+            <img src="https://assets.codepen.io/9277864/mood-rock.svg" alt="Rock" widht="25" height="25" />
+          </div>
+          <div class="header-icons">
+            <div class="header-icons-row first-icons">
+              <div class="header-icon-4"></div>
+              <div class="header-icon-2"></div>
+              <div class="header-icon-3"></div>
+            </div>
+            <div class="header-icons-row">
+              <div class="header-icon-7"></div>
+              <div class="header-icon-10"></div>
+              <div class="header-icon-12"></div>
+            </div>
+          </div>
+        </div>
+        <nav class="nav-container">
+          <ul>
+            <li class="active-bg" id="menu-item-1">
+              <button id="bio-btn" onClick="btnClick('bio')" class="blue-line">
+                <img src="https://assets.codepen.io/9277864/about-me.svg" alt="Bio" width="40" height="40" />
+                <p>Bio</p>
+              </button>
+            </li>
+            <li id="menu-item-2">
+              <button id="experience-btn" onClick="btnClick('experience')">
+                <img src="https://assets.codepen.io/9277864/office-work.svg" alt="Experience" width="40" height="40" />
+                <p>Experience</p>
+              </button>
+            </li>
+            <li id="menu-item-3">
+              <button id="portfolio-btn" onClick="btnClick('portfolio')">
+                <img src="https://assets.codepen.io/9277864/page.svg" alt="Portfolio" width="40" height="40" />
+                <p>Portfolio</p>
+              </button>
+            </li>
+            <li id="menu-item-4">
+              <button id="contact-btn" onClick="btnClick('contact')">
+                <img src="https://assets.codepen.io/9277864/contact.svg" alt="Contact" width="40" height="40" />
+                <p>Contact</p>
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section id="bio">
+          <h2>Bio</h2>
+          <p><span class="emoji">🙋‍♂️</span> Hey,</p>
+          <p>My name is Eduardo, but people generally call me Edu. I'm a Front-End Developer with a great knowledge in React, HTML, CSS, JavaScript, NextJS, and Blockchain.</p>
+          <p>I have a passion for turning cool designs into great products</p>
+          <ul>
+            <li><span class="emoji">👉</span> What I know technically and conceptually</li>
+            <li><span class="emoji">👉</span> Industry best practices</li>
+            <li><span class="emoji">👉</span> Some of my small projects</li>
+          </ul>
+          <p>That would be great if we connected on social media, especially on Twitter, kept in touch, and shared how we live this life.</p>
+
+          <div class="social-media">
+            <div><a href="https://twitter.com/EduardoNicoleit" target="_blank"><img src="https://assets.codepen.io/9277864/social-media-twitter.svg" alt="Twitter" width="28" height="28" /></a></div>
+            <div><a href="https://www.instagram.com/eduardonicoleit/" target="_blank"><img src="https://assets.codepen.io/9277864/social-instagram-1.svg" alt="Instagram" width="28" height="28" /></a></div>
+            <div><a href="https://www.linkedin.com/in/eduardonicoleit/" target="_blank"><img src="https://assets.codepen.io/9277864/linkedin.svg" alt="Linkedin" width="28" height="28" /></a></div>
+            <div><a href="https://github.com/EduardoNicoleit" target="_blank"><img src="https://cdn.discordapp.com/attachments/952037061559463996/1105124258520256582/logo_github_icon_143196.png" alt="GitHub" width="28" height="28" /></a></div>
+          </div>
+        </section>
+        <section id="experience" class="display-none">
+          <h2>Experience</h2>
+          <div class="history">
+            <div data-year="2023">
+              <h3>Front-End Developer - <span>Freelancer</span></h3>
+              <p>Building cool websites</p>
+            </div>
+            <div data-year="2022">
+              <h3>Blockchain Developer - <span>Freelancer</span></h3>
+              <p>Creating and Deploying NFT's and Cryptocurrencies projects</p>
+            </div>
+            <div data-year="2018">
+              <h3>Engineer - <span>Freelancer</span></h3>
+              <p>Creating structural projects in the constructure sector</p>
+            </div>
+          </div>
+        </section>
+        <section id="portfolio" class="display-none">
+          <h2>Portfolio</h2>
+          <div class="grid">
+            <div class="grid-item">
+              <a href="#" target="_blank">
+                <div class="portfolio-image">
+                  <img src="https://assets.codepen.io/9277864/schedule-milestone-2.svg" alt="Project 1" width="200" height="200" />
+                </div>
+                <div class="portfolio-description">
+                  <h3>Portfolio Item 1</h3>
+                  <p>Project Explanation</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="grid-item">
+              <a href="#" target="_blank">
+                <div class="portfolio-image">
+                  <img src="https://assets.codepen.io/9277864/designer-desk-1.svg" alt="Project 2" width="200" height="200" />
+                </div>
+                <div class="portfolio-description">
+                  <h3>Portfolio Item 1</h3>
+                  <p>Project Explanation</p>
+                </div>
+              </a>
+            </div>
+            <div class="grid-item">
+              <a href="#" target="_blank">
+                <div class="portfolio-image">
+                  <img src="https://assets.codepen.io/9277864/project-timeline-2.svg" alt="Project 3" width="200" height="200" />
+                </div>
+                <div class="portfolio-description">
+                  <h3>Portfolio Item 1</h3>
+                  <p>Project Explanation</p>
+                </div>
+              </a>
+            </div>
+            <div class="grid-item">
+              <a href="#" target="_blank">
+                <div class="portfolio-image">
+                  <img src="https://assets.codepen.io/9277864/business-presentation-1.svg" alt="Project 4" width="200" height="200" />
+                </div>
+                <div class="portfolio-description">
+                  <h3>Portfolio Item 1</h3>
+                  <p>Project Explanation</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="grid-item">
+              <a href="#" target="_blank">
+                <div class="portfolio-image">
+                  <img src="https://assets.codepen.io/9277864/product-development-1.svg" alt="Project 5" width="200" height="200" />
+                </div>
+                <div class="portfolio-description">
+                  <h3>Portfolio Item 1</h3>
+                  <p>Project Explanation</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </section>
+          <section id="contact" class="display-none">
+          <h2>Contact</h2>
+          <div>
+            <div class="contact-item">
+              <p><img src="https://assets.codepen.io/9277864/location-user.svg" alt="Address Icon" width="25" height="25" /></p>
+              <address>Florianopolis - Santa Catarina - Brasil</address>
+            </div>
+            <div class="contact-item">
+              <p><img src="https://assets.codepen.io/9277864/envelope-letter.svg" alt="Email Icon" width="25" height="25" /></p>
+              <address>eduardonicoleit@hotmail.com</address>
+            </div>
+            <div class="contact-item">
+              <p><img src="https://assets.codepen.io/9277864/mobile-phone-1.svg" alt="Phone Icon" width="25" height="25" /></p>
+              <address>+55 (48) 99614-7914</address>
+            </div>
+
+            <div class="follow-btn">
+              <a href="https://twitter.com/EduardoNicoleit" target="_blank">Follow Me on Twitter!</a>
+            </div>
+          </div>
+          </section>
+      </main>
+      <img src="https://assets.codepen.io/9277864/u%2B1f6f5.svg" alt="Bike" width="70" height="70" id="bike1" class="bike1" />
+      <img src="https://assets.codepen.io/9277864/u%2B1f6f5.svg" alt="Bike" width="70" height="70" id="bike2" class="bike2" />
+    </div>
+  </div>
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
