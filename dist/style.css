@@ -250,8 +250,8 @@ main {
   flex-direction: column;
 }
 .small-header img {
-  width: 68px;
-  height: 68px;
+  width: 100px;
+  height: 100px;
 }
 .small-header .avatar-container {
   padding-top: 0;
@@ -413,11 +413,13 @@ h2 {
 /* Contact Ends */
 /* Media Queries Start */
 @media only screen and (max-width: 420px) {
-  .small-header {
-    transform: translate(-5%, -30%);
-  }
+
+  
   .small-header .header-icons {
     transform: translate(0, 100%);
+    padding-top: 0px;
+    padding-bottom: 0px;
+    
   }
 
   .header-icons {
