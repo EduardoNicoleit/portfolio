@@ -1,0 +1,46 @@
+MIME-Version: 1.0
+Content-Type: text/html; charset="UTF-8"
+Subject: Email Template
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Email Template</title>
+</head>
+<body>
+    <div style="font-family: Arial, sans-serif; padding: 20px;">
+        <div style="font-size: 18px; font-weight: bold;">Name of the professional</div>
+        <div style="font-size: 14px; margin-bottom: 20px;">Position/bio</div>
+        
+        <div style="display: flex; margin-bottom: 20px;">
+            <div style="flex: 1; text-align: left; margin-right: 10px;">
+                <div style="font-size: 14px; text-align: left; margin-bottom: 10px;">
+                    Address line 1<br>
+                    Address line 2
+                </div>
+                <img src="https://raw.githubusercontent.com/EduardoNicoleit/portfolio/566c03062c0c40fc203281afe658a4bcbd845db6/INFRANITY%20120PX.svg" alt="Company Logo" style="height: 40px;">
+            </div>
+            
+            <div style="flex: 1; border-left: 1px solid #000; padding-left: 10px; display: flex; align-items: flex-start; flex-direction: column;">
+                <div style="font-size: 14px; text-align: left; margin-bottom: 10px;">
+                    W. +00 00 00 00 00 00<br>
+                    M. +00 00 00 00 00 00<br>
+                    <a href="http://www.infranity.com" target="_blank" style="color: #0000EE; text-decoration: none;">www.infranity.com</a>
+                </div>
+                <a href="https://linkedin.com" target="_blank" style="display: block;">
+                    <img src="https://raw.githubusercontent.com/EduardoNicoleit/portfolio/566c03062c0c40fc203281afe658a4bcbd845db6/LINKEDIN%2020PX.svg" alt="LinkedIn" style="height: 40px;">
+                </a>
+            </div>
+        </div>
+        
+        <hr style="border: 1px solid #000;">
+        
+        <div style="font-size: 10px; line-height: 1.5;">
+            Infranity S.A.S. is a simplified joint-stock company (société par actions simplifiée) incorporated under the laws of France, with its registered office at 6 rue Ménars 75002 Paris France, registered with the Paris Registre du Commerce et des Sociétés under number 831 266 721. Infranity S.A.S is an asset management company authorized by the French Regulator “Autorité des Marchés Financiers” under number GP-19000030.
+            <br><br>
+            Infranity S.A.S, acting through its UK establishment, with registered office in 70 Pall Mall, London, SW1Y 5ES is an appointed representative of Carne International Financial Services (UK) Limited which is authorised and regulated by the Financial Conduct Authority of the United Kingdom (FRN 823316). Registered in England, No. 11555138. Registered office: 2nd Floor 107, Cheapside, London, United Kingdom, EC2V 6DN.
+        </div>
+    </div>
+</body>
+</html>
